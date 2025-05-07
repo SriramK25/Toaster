@@ -27,6 +27,7 @@ button {
   align-items: center;
   flex-direction: column;
   gap: 15px;
+  background: var(--background);
 }
 
 .toast-button {
@@ -34,8 +35,10 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   transition: border 0.2s;
+  background: var(--call-to-action);
+  color: var(--text);
 }
 
 .toast-button:hover {
-  border: 1px solid #333;
+  border: 1px solid #ccc;
 }
