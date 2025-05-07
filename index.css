@@ -20,6 +20,11 @@ button {
   outline: none;
 }
 
+a {
+  font-family: inherit;
+  text-decoration: none;
+}
+
 .root {
   height: 100%;
   display: flex;
@@ -30,13 +35,21 @@ button {
   background: var(--background);
 }
 
-.toast-button {
+.toast-button,
+.github-link {
   width: 250px;
   padding: 8px 16px;
   border-radius: 8px;
   transition: border 0.2s;
   background: var(--call-to-action);
   color: var(--text);
+}
+.github-link {
+  display: inline-block;
+  background: none;
+  border: 1px dashed #ccc;
+  text-align: center;
+  font-size: 14px;
 }
 
 .toast-button:hover {
