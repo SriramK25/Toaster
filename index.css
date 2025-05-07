@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", serif;
+  position: relative;
+  height: 100vh;
+  color: #333;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.root {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.toast-button {
+  width: 250px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: border 0.2s;
+}
+
+.toast-button:hover {
+  border: 1px solid #333;
+}
